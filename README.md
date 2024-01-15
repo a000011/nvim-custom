@@ -1,6 +1,7 @@
 # my custom config for NvChad
 
 config for working with type script
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03dUtyiQoywqzfBBl-Q8l5EbBpOI5M8porQ&usqp=CAU)
 
 ### installation:
 
