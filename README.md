@@ -1,6 +1,8 @@
 # my custom config for NvChad
 
-##installation:
+config for working with type script
+
+#### installation:
 
 ```bash
 git clone https://github.com/a000011/nvim-custom.git ~/.config/nvim/lua/custom
