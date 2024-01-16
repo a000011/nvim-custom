@@ -13,5 +13,14 @@ for _, lsp in ipairs(servers) do
   }
 end
 
--- 
+lspconfig.eslint.setup {
+  settings = {
+    format = false,
+    workingDirectory = {
+      mode = "location",
+    },
+  },
+}
+
+--
 -- lspconfig.pyright.setup { blabla}
