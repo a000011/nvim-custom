@@ -2,8 +2,8 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
+-- local util = require "lspconfig.util"
 
--- if you just want default config for the servers then put them in a table
 local servers = { "html", "cssls", "tsserver", "clangd" }
 
 for _, lsp in ipairs(servers) do
@@ -13,14 +13,12 @@ for _, lsp in ipairs(servers) do
   }
 end
 
-lspconfig.eslint.setup {
-  settings = {
-    format = false,
-    workingDirectory = {
-      mode = "location",
-    },
-  },
-}
-
---
--- lspconfig.pyright.setup { blabla}
+-- lspconfig.eslint.setup {
+--   settings = {
+--     format = false,
+--     workingDirectory = {
+--       mode = "location",
+--     },
+--     -- root_dir = "~/Desktop/git/informer-bot/src/services/admin/",
+--   },
+-- }
