@@ -1,8 +1,11 @@
 local null_ls = require "null-ls"
 
 local b = null_ls.builtins
+local diagnostics = null_ls.builtins.diagnostics
 
 local sources = {
+
+  diagnostics.eslint_d,
 
   -- webdev stuff
   b.formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
